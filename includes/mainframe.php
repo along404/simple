@@ -1,0 +1,75 @@
+
+<div id="main">
+    <!-- top bar navigation -->
+    <div class="headerbar">
+
+        <!-- LOGO -->
+        <div class="headerbar-left">
+            <a href="index.php" class="logo"><img alt="logo" src="assets/images/logo.png" /> <span>Admin</span></a>
+        </div>
+
+        <nav class="navbar-custom">
+
+            <ul class="list-inline float-right mb-0">
+
+                <li class="list-inline-item dropdown notif">
+                    <a class="nav-link dropdown-toggle nav-user" data-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
+                        Hello, <?php echo $_SESSION['hrsm_nickname'] ?>
+                    </a>
+                    <div border="1" class="dropdown-menu dropdown-menu-right profile-dropdown" style="width: 200px">
+                        <!-- item-->
+                        <a  class="dropdown-item notify-item">
+                            <i class="fa fa-user-circle" ></i> <span>Profile</span>
+                        </a>
+                        <a  class="dropdown-item notify-item" id="logout">
+                            <i class="fa fa-power-off" ></i> <span>Logout</span>
+                        </a>
+                    </div>
+                </li>
+
+            </ul>
+            <ul class="list-inline menu-left mb-0">
+                <li class="float-left">
+                    <button class="button-menu-mobile open-left">
+                        <i class="fa fa-fw fa-bars"></i>
+                    </button>
+                </li>                        
+            </ul>
+
+        </nav>
+
+    </div>
+    <!-- End Navigation -->
+
+
+
+
+
+
+    <!-- Left Sidebar -->
+    <div class="left main-sidebar">
+
+        <div class="sidebar-inner leftscroll">
+
+            <div id="sidebar-menu">
+
+                <ul>
+<!--                    <li class="submenu">
+                        <a href="#"><i class="fa fa-fw fa-table"></i> <span> Tables </span> <span class="menu-arrow"></span></a>
+                        <ul class="list-unstyled">
+                            <li><a href="tables-basic.html">Basic Tables</a></li>
+                            <li><a href="tables-datatable.html">Data Tables</a></li>
+                        </ul>
+                    </li>                  -->
+                </ul>
+
+                <div class="clearfix"></div>
+
+            </div>
+
+            <div class="clearfix"></div>
+
+        </div>
+
+    </div>
+    <!-- End Sidebar -->
