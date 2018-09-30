@@ -18,7 +18,7 @@ $tgtBack = basename(__FILE__, '.php');
                     <div class="col-md-12">						
                         <div class="card mb-3">
                             <div class="card-header">
-                                <h3><i class="fa fa-table"></i> Tetapan Bahagiann</h3>
+                                <h3><i class="fa fa-table"></i> Tetapan Bahagian</h3>
                             </div>
                             <div class="card-body">
                                 <form id="saveBahagian">
