@@ -3,6 +3,7 @@ include_once '../includes/general.php';
 if ((!$_SESSION)) {
     header('location:../login.php');
 }
+
 include_once '../includes/mainframe_module.php';
 
 $tgtUpdate = 'bahagian_kemaskini.php';
